@@ -1,12 +1,32 @@
-Exercise1 - Checkerboard Pattern Generator
+Checkerboard Pattern Generator
 
 📌 Project Overview
 
 This project generates a checkerboard pattern using Python with numpy and matplotlib. The colormap used for visualization can be modified easily.
 
+🚀 Branches
+
+This repository has two branches:
+
+1️⃣ main (Stable Version)
+
+The primary branch with a stable and tested implementation.
+
+Uses "gray" colormap by default.
+
+2️⃣ change-colormap (Experimental Version)
+
+A development branch where the colormap in plt.imshow() is modified.
+
+Allows experimenting with different color schemes like "viridis", "plasma", and "magma".
+
+If you want to modify the colormap, switch to this branch and edit:
+
+plt.imshow(checkerboard, cmap="viridis", interpolation="nearest")
+
 📂 Project Structure
 
-Exercise1/
+Checkerboard-Generator/
 │── checkerboard.py  # Main script to generate checkerboard pattern
 │── README.md        # Documentation
 
@@ -23,13 +43,23 @@ python --version
 git clone https://github.com/jiayuzhou-bot/ex1-ZhouJiayu.git
 cd ex1-ZhouJiayu
 
-2️⃣ Create a virtual environment (optional but recommended)
+2️⃣ Switch between branches
+
+To use the stable version:
+
+git checkout main
+
+To experiment with colormaps:
+
+git checkout change-colormap
+
+3️⃣ Create a virtual environment (optional but recommended)
 
 python -m venv venv
 source venv/bin/activate  # On macOS/Linux
 venv\Scripts\activate     # On Windows
 
-3️⃣ Install dependencies
+4️⃣ Install dependencies
 
 pip install numpy matplotlib
 
@@ -38,24 +68,6 @@ pip install numpy matplotlib
 To generate and visualize the checkerboard pattern, run:
 
 python checkerboard.py
-
-🎨 Changing the Colormap
-
-The colormap used in plt.imshow() can be modified in checkerboard.py. Locate this line:
-
-plt.imshow(checkerboard, cmap="viridis", interpolation="nearest")
-
-Replace "viridis" with any other valid colormap, such as:
-
-"gray"
-
-"plasma"
-
-"magma"
-
-"inferno"
-
-"jet"
 
 🛠 Troubleshooting
 
@@ -78,4 +90,3 @@ Feel free to open an issue or submit a pull request if you have improvements!
 For any questions, reach out via GitHub Issues.
 
 Happy coding! 🚀
-
