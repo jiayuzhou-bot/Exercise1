@@ -18,7 +18,6 @@ This repository contains:
 - **`main`** : The primary branch containing the initial checkerboard script.
 - **`change-colormap`** : A modified version with a different colormap.
 
----
 
 ## 🚀 Getting Started
 
