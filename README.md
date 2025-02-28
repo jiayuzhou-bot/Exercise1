@@ -25,8 +25,12 @@ This repository contains:
 To get started, clone the repository to your local machine:
 ```sh
 git clone https://github.com/jiayuzhou-bot/ex1-ZhouJiayu.git
-cd ex1-ZhouJiayu```
+cd ex1-ZhouJiayu
 
+### 2️.Switch Between Branches
+To use the stable version (`main`):
+```sh
+git checkout main
 
 ### 2.Switch Between Branches
 To use the stable version (main):
@@ -37,6 +41,7 @@ To experiment with colormaps (change-colormap branch):
 git checkout change-colormap```
 
 ### 3.Install Dependencies
+
 Ensure that Python 3.10+ is installed, then install the required libraries:
 ```sh
 pip install numpy matplotlib```
