@@ -27,10 +27,7 @@ To get started, clone the repository to your local machine:
 git clone https://github.com/jiayuzhou-bot/ex1-ZhouJiayu.git
 cd ex1-ZhouJiayu
 
-### 2️.Switch Between Branches
-To use the stable version (`main`):
-```sh
-git checkout main
+---
 
 ### 2.Switch Between Branches
 To use the stable version (main):
@@ -40,13 +37,17 @@ To experiment with colormaps (change-colormap branch):
 ```sh
 git checkout change-colormap```
 
+---
+
 ### 3.Install Dependencies
 
 Ensure that Python 3.10+ is installed, then install the required libraries:
 ```sh
 pip install numpy matplotlib```
 
-## Running the Project
+---
+
+### 4.Running the Project
 Run the following command to generate and visualize the checkerboard pattern:
 ```sh
 python checkerboard.py```
