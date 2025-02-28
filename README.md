@@ -27,7 +27,7 @@ To get started, clone the repository to your local machine:
 git clone https://github.com/jiayuzhou-bot/ex1-ZhouJiayu.git
 cd ex1-ZhouJiayu
 
----
+` ``` `
 
 ### 2.Switch Between Branches
 To use the stable version (main):
