@@ -28,32 +28,6 @@ To get started, clone the repository to your local machine:
 git clone https://github.com/jiayuzhou-bot/ex1-ZhouJiayu.git
 cd ex1-ZhouJiayu
 
-Checkerboard Pattern Generator
-
-📌 Project Overview
-
-This project generates a checkerboard pattern using Python with numpy and matplotlib. The colormap used for visualization can be modified easily.
-
-🚀 Branches
-
-This repository has two branches:
-
-1️⃣ main (Stable Version)
-
-The primary branch with a stable and tested implementation.
-
-Uses "gray" colormap by default.
-
-2️⃣ change-colormap (Experimental Version)
-
-A development branch where the colormap in plt.imshow() is modified.
-
-Allows experimenting with different color schemes like "viridis", "plasma", and "magma".
-
-If you want to modify the colormap, switch to this branch and edit:
-
-plt.imshow(checkerboard, cmap="viridis", interpolation="nearest")
-
 📂 Project Structure
 
 Checkerboard-Generator/
